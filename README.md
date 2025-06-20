@@ -10,11 +10,11 @@ Built using a clean, scalable architecture with focus on testability, modularity
 
 This project follows a Clean Architecture approach:
 
-- **Domain**: Core entities, enums, and contracts
-- **Application**: Use cases (not yet populated)
-- **Infrastructure**: Implementations like repositories, token generators, persistence
-- **Client**: Blazor WASM frontend with MVVM-style ViewModels and Services
-- **Server**: ASP.NET Core Web API layer
+- **Domain**: Core entities, enums, and contracts  
+- **Application**: Use cases and handlers (CQRS-style)  
+- **Infrastructure**: Implementations like repositories, token generators, persistence  
+- **Client**: Blazor WASM frontend using Radzen components and MVVM-style ViewModels and Services  
+- **Server**: ASP.NET Core Web API layer  
 - **Shared**: DTOs and models shared between Server and Client
 
 ---
@@ -25,21 +25,23 @@ This project follows a Clean Architecture approach:
 - ASP.NET Core
 - Entity Framework Core
 - JWT Authentication
+- Radzen (for Blazor UI components)
 - Clean Architecture Principles
 - xUnit / Playwright (upcoming tests)
-- Bootstrap
+
+> ⚙️ Note: This project uses **Radzen** for UI component generation and layout. No external CSS frameworks like Bootstrap are used.
 
 ---
 
 ## 🚧 Features in progress
 
-- [x] Clean architecture setup
-- [x] JWT token abstraction
-- [x] Trailer DTOs and shared models
-- [x] Blazor structure with ViewModel pattern
-- [ ] RESTful API for trailers
-- [ ] Login and register flow
-- [ ] Comments and user interactions
+- [x] Clean architecture setup  
+- [x] JWT token abstraction  
+- [x] Trailer DTOs and shared models  
+- [x] Blazor structure with ViewModel pattern (Radzen-based)  
+- [ ] RESTful API for trailers  
+- [ ] Login and register flow  
+- [ ] Comments and user interactions  
 - [ ] Unit and E2E testing setup
 
 ---

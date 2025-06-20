@@ -55,3 +55,4 @@ git clone https://github.com/Nicokevo/CinemaFriendly.git
 cd CinemaFriendly
 dotnet restore
 dotnet build
+

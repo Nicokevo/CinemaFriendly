@@ -1,6 +1,6 @@
-﻿namespace CinemaFriendly.Shared.Models;
+namespace CinemaFriendly.Shared.Models;
 
-public class TrailerDTo
+public class TrailerDto
 {
     public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
